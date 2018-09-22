@@ -40,6 +40,7 @@ The proposed formula is:
 where:
 
 LOC is the number of lines of code.
+
 LOM is the number of lines with comments.
 
 ##### Implementation notes
@@ -59,6 +60,7 @@ The proposed formula is:
 where:
 
 ASL is the average sentence length.
+
 AWL is the average word length.
 
 ##### Implementation notes
