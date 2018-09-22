@@ -12,6 +12,15 @@ Readability analysis for a specific formula can be disabled by tiggling the "Dis
 
 After checking the readability, the results can be exported to a text file by pressing the "Export Results" button.
 
+## Installation
+
+1. Download `mbn` file [here](https://we.tl/t-bn2Y11tPfJ)
+2. In NetBeans, go to **Tools** > **Plugins** > **Downloaded** > **Add Plugins**
+3. Select the downloaded `ReadabilityChecker-1.0.nbm` file
+4. Click **Install** and follow the instructions
+
+The following icon should now appear in the upper left corner of NetBeans: ![](https://image.ibb.co/gkTH7U/readabilitycheckericon24.png "Readability Checker Icon")
+
 ## Implemented Formulas
 
 Currently, Readability Checker implements three software readability formulas:
