@@ -1,12 +1,16 @@
 # Readability Checker
 
-Readability Checker is a plugin for the NetBbeans IDE that estimates Java code readability using three different software readability formulas.
+Readability Checker is a plugin for the NetBeans IDE that estimates Java code readability using three different software readability formulas.
 
 ![Main Window](https://image.ibb.co/kD8aBp/rc_window.png "Readability Checker Main Window")
 
 ## Features
 
 For the Comments Ratio and SRES formulas, the main window shows the readability of the currently opened project. For the PHD formula, it shows how many methods were analyzed by this formula on the currently opened class. To see the readability value of each method, select "Detailed Results".
+
+Readability analysis for a specific formula can be disabled by tiggling the "Disable" checkbox.
+
+After checking the readability, the results can be exported to a text file by pressing the "Export Results" button.
 
 ## Implemented Formulas
 
@@ -22,7 +26,7 @@ Proposed, in 2002, by the researchers Krishan K. Aggarwal, Yogesh Singh and Jite
 
 The proposed formula is:
 
-**CR = LOC/LOM**
+![](https://image.ibb.co/k1D6j9/Code_Cogs_Eqn_2.gif "Logistic Function")
 
 where:
 
@@ -41,7 +45,7 @@ Theorized by Jürgen Börstler, Michael E. Caspersen e Marie Nordström, the gen
 
 The proposed formula is:
 
-**SRES = ASL - 0.1 * AWL**
+![](https://image.ibb.co/dDyiWp/Code_Cogs_Eqn_3.gif "Logistic Function")
 
 where:
 
@@ -64,7 +68,7 @@ The proposed formula is:
 
 where:
 
-**z = 8.87 - 0.033 * Volume + 0.40 * Lines - 1.5 * Entropy**
+![](https://image.ibb.co/bWZwj9/Code_Cogs_Eqn_5.gif "Regrassion Function")
 
 ##### Implementation notes
 
