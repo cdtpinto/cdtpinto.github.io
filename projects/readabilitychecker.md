@@ -16,7 +16,7 @@ Proposed, in 2002, by the researchers Krishan K. Aggarwal, Yogesh Singh and Jite
 
 The proposed formula is:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=CR%20%3D%20LOC%20%20%2F%20%20LOM&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+**CR = LOC/LOM**
 
 where:
 
@@ -24,8 +24,6 @@ LOC is the number of lines of code.
 LOM is the number of lines with comments.
 
 ##### Implementation notes
-
-#  
 
 This formula analyzes the readability of the project, the class and each of the class methods.
 
@@ -37,7 +35,7 @@ Theorized by Jürgen Börstler, Michael E. Caspersen e Marie Nordström, the gen
 
 The proposed formula is:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=SRES%20%3D%20ASL%20-%200.1%20%20%5Ctimes%20%20AWL&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+**SRES = ASL - 0.1 * AWL**
 
 where:
 
@@ -45,8 +43,6 @@ ASL is the average sentence length.
 AWL is the average word length.
 
 ##### Implementation notes
-
-# 
 
 **The implementation of this formula supports Java SE 5.**
 
@@ -56,14 +52,12 @@ This readability formula was proposed by Daryl Posnett, Abram Hindle and Prem De
 
 The proposed formula is:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=%20%5Cfrac%7B1%7D%7B1%2B%20e%5E%7B-z%7D%20%7D%20&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+**1 / (1 + e^-z)**
 
 where:
 
-![equation](http://www.sciweavers.org/tex2img.php?eq=z%20%3D%208.87%20-%200.033%20%20%5Ctimes%20%20Volume%20%2B%200.40%20%20%5Ctimes%20%20Lines%20-%201.5%20%20%5Ctimes%20%20Entropymes%20%20AWLLOM&bc=White&fc=Black&im=jpg&fs=12&ff=arev&edit=0)
+**z = 8.87 - 0.033 * Volume + 0.40 * Lines - 1.5 * Entropy**
 
 ##### Implementation notes
-
-# 
 
 **The implementation of this formula supports Java SE 5.**
