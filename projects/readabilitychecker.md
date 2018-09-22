@@ -2,6 +2,12 @@
 
 Readability Checker is a plugin for the NetBbeans IDE that estimates Java code readability using three different software readability formulas.
 
+![Main Window](https://image.ibb.co/kD8aBp/rc_window.png "Readability Checker Main Window")
+
+## Features
+
+For the Comments Ratio and SRES formulas, the main window shows the readability of the currently opened project. For the PHD formula, it shows how many methods were analyzed by this formula on the currently opened class. To see the readability value of each method, select "Detailed Results".
+
 ## Implemented Formulas
 
 Currently, Readability Checker implements three software readability formulas:
@@ -25,9 +31,9 @@ LOM is the number of lines with comments.
 
 ##### Implementation notes
 
-This formula analyzes the readability of the project, the class and each of the class methods.
+* **Fully supports Java SE 10.**
 
-**The implementation of this formula supports Java SE 10.**
+* Analyzes the readability of the project, it's classes and methods.
 
 ### SRES
 
@@ -44,7 +50,9 @@ AWL is the average word length.
 
 ##### Implementation notes
 
-**The implementation of this formula supports Java SE 5.**
+* **Fully supports Java SE 5.**
+
+* Analyzes the readability of the project and it's classes.
 
 ### PHD
 
@@ -52,7 +60,7 @@ This readability formula was proposed by Daryl Posnett, Abram Hindle and Prem De
 
 The proposed formula is:
 
-**1 / (1 + e^-z)**
+![](https://image.ibb.co/dXmRj9/Code_Cogs_Eqn_4.gif "Logistic Function")
 
 where:
 
@@ -60,4 +68,6 @@ where:
 
 ##### Implementation notes
 
-**The implementation of this formula supports Java SE 5.**
+* **Fully supports Java SE 5.**
+
+* Analyzes the readability of the currently opened class methods with a maximum of 11 lines of code.
