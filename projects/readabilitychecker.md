@@ -14,7 +14,7 @@ After checking the readability, the results can be exported to a text file by pr
 
 ## Installation
 
-1. Download `mbn` file [here](https://we.tl/t-bn2Y11tPfJ)
+1. Download `nbm` file [here](https://we.tl/t-bn2Y11tPfJ)
 2. In NetBeans, go to **Tools** > **Plugins** > **Downloaded** > **Add Plugins**
 3. Select the downloaded `ReadabilityChecker-1.0.nbm` file
 4. Click **Install** and follow the instructions
