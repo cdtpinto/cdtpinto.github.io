@@ -8,7 +8,7 @@ Readability Checker is a plugin for the NetBeans IDE that estimates Java code re
 
 For the Comments Ratio and SRES formulas, the main window shows the readability of the currently opened project. For the PHD formula, it shows how many methods were analyzed by this formula on the currently opened class. To see the readability value of each method, select "Detailed Results".
 
-Readability analysis for a specific formula can be disabled by tiggling the "Disable" checkbox.
+Readability analysis for a specific formula can be disabled by toggling the "Disable" checkbox.
 
 After checking the readability, the results can be exported to a text file by pressing the "Export Results" button.
 
@@ -47,11 +47,13 @@ LOM is the number of lines with comments.
 
 * **Fully supports Java SE 10.**
 
+* Readability values should be critically considered as good or bad.
+
 * Analyzes the readability of the project, it's classes and methods.
 
 ### SRES
 
-Theorized by Jürgen Börstler, Michael E. Caspersen e Marie Nordström, the general principles of this readability formula was first introduced in 2007 in the article [Beauty and the Beast Toward a Measurement Framework for Example Program Quality](https://pdfs.semanticscholar.org/8c41/1a1fb987966f2020765069dc21881826e635.pdf), then it's logic was implemented in a readability tool titled [Properties of "Good" Java Examples](http://www8.cs.umu.se/education/examina/Rapporter/NadeemAbbas_v2.pdf) by Nadeem Abbas, and later on, in 2015, the SRES readability formula was actually proposed in the article [Beauty and the Beast: on the readability of object-oriented example programs](https://link.springer.com/article/10.1007/s11219-015-9267-5).
+Theorized by Jürgen Börstler, Michael E. Caspersen e Marie Nordström, the general principles of this readability formula were first introduced in 2007, in the article [Beauty and the Beast Toward a Measurement Framework for Example Program Quality](https://pdfs.semanticscholar.org/8c41/1a1fb987966f2020765069dc21881826e635.pdf), then it's logic was implemented in a readability tool titled [Properties of "Good" Java Examples](http://www8.cs.umu.se/education/examina/Rapporter/NadeemAbbas_v2.pdf) by Nadeem Abbas, and later on, in 2015, the SRES readability formula was actually proposed in the article [Beauty and the Beast: on the readability of object-oriented example programs](https://link.springer.com/article/10.1007/s11219-015-9267-5).
 
 The proposed formula is:
 
@@ -66,6 +68,8 @@ AWL is the average word length.
 ##### Implementation notes
 
 * **Fully supports Java SE 5.**
+
+* Threshold readability value is 6. Values closer to 0 mean more readable code.
 
 * Analyzes the readability of the project and it's classes.
 
@@ -84,5 +88,7 @@ where:
 ##### Implementation notes
 
 * **Fully supports Java SE 5.**
+
+* Readability values range from 0 to 1. The closer it gets to 1, the more readable the code is.
 
 * Analyzes the readability of the currently opened class methods with a maximum of 11 lines of code.
