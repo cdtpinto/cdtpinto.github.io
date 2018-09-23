@@ -19,7 +19,7 @@ After checking the readability, the results can be exported to a text file by pr
 3. Select the downloaded `ReadabilityChecker-1.0.nbm` file
 4. Click **Install** and follow the instructions
 
-The following icon should now appear in the upper left corner of NetBeans: ![](https://image.ibb.co/gkTH7U/readabilitycheckericon24.png "Readability Checker Icon")
+The following icon should now appear in the upper left corner of NetBeans: ![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/readabilitycheckericon24.png "Readability Checker Icon")
 
 ## Implemented Formulas
 
@@ -35,7 +35,7 @@ Proposed, in 2002, by the researchers Krishan K. Aggarwal, Yogesh Singh and Jite
 
 The proposed formula is:
 
-![](https://image.ibb.co/k1D6j9/Code_Cogs_Eqn_2.gif "Logistic Function")
+![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/comments_ratio_formula.gif "Comments Ratio Formula")
 
 where:
 
@@ -55,7 +55,7 @@ Theorized by Jürgen Börstler, Michael E. Caspersen e Marie Nordström, the gen
 
 The proposed formula is:
 
-![](https://image.ibb.co/dDyiWp/Code_Cogs_Eqn_3.gif "Logistic Function")
+![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/sres_formula.gif "SRES Formula")
 
 where:
 
@@ -75,11 +75,11 @@ This readability formula was proposed by Daryl Posnett, Abram Hindle and Prem De
 
 The proposed formula is:
 
-![](https://image.ibb.co/dXmRj9/Code_Cogs_Eqn_4.gif "Logistic Function")
+![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/logistic_formula.gif "Logistic Function")
 
 where:
 
-![](https://image.ibb.co/bWZwj9/Code_Cogs_Eqn_5.gif "Regrassion Function")
+![](hhttps://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/phd_regression_formula.gif "PHD Regression Formula")
 
 ##### Implementation notes
 
