@@ -79,7 +79,7 @@ The proposed formula is:
 
 where:
 
-![](hhttps://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/phd_regression_formula.gif "PHD Regression Formula")
+![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/phd_regression_formula.gif "PHD Regression Formula")
 
 ##### Implementation notes
 
