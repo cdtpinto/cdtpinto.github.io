@@ -55,9 +55,7 @@ LOM is the number of lines with comments
 
 ### SRES
 
-<div style="text-align: justify">
 Theorized by Jürgen Börstler, Michael E. Caspersen and Marie Nordström, the general principles of this readability formula were first introduced in 2007, in the article [Beauty and the Beast Toward a Measurement Framework for Example Program Quality](https://pdfs.semanticscholar.org/8c41/1a1fb987966f2020765069dc21881826e635.pdf), then it's logic was implemented in a readability tool titled [Properties of "Good" Java Examples](http://www8.cs.umu.se/education/examina/Rapporter/NadeemAbbas_v2.pdf) by Nadeem Abbas, and later on, in 2015, the SRES readability formula was actually proposed in the article [Beauty and the Beast: on the readability of object-oriented example programs](https://link.springer.com/article/10.1007/s11219-015-9267-5).
-</div>
 
 The proposed formula is:
 
