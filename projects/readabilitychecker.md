@@ -40,7 +40,9 @@ The proposed formula is:
 ![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/comments_ratio_formula.gif "Comments Ratio Formula")
 
 where:
+
 LOC is the number of lines of code
+
 LOM is the number of lines with comments
 
 ##### Implementation notes
@@ -60,7 +62,9 @@ The proposed formula is:
 ![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/sres_formula.gif "SRES Formula")
 
 where:
+
 ASL is the average sentence length
+
 AWL is the average word length
 
 ##### Implementation notes
@@ -80,6 +84,7 @@ The proposed formula is:
 ![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/logistic_formula.gif "Logistic Function")
 
 where:
+
 ![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/phd_regression_formula.gif "PHD Regression Formula")
 
 ##### Implementation notes
