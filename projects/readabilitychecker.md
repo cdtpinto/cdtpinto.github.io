@@ -81,7 +81,7 @@ This readability formula was proposed by Daryl Posnett, Abram Hindle and Prem De
 
 The proposed formula is:
 
-![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/logistic_formula.gif "Logistic Function")
+![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/phd_logistic_function.gif "Logistic Function")
 
 where:
 
