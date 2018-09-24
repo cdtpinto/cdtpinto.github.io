@@ -33,39 +33,35 @@ Currently, Readability Checker implements three software readability formulas:
 
 ### Comments Ratio
 
-Proposed, in 2002, by the researchers Krishan K. Aggarwal, Yogesh Singh and Jitender Kumar Chhabra in the article [An Integrated Measure of Software Maintainability](https://ieeexplore.ieee.org/document/981648/).
+Proposed in 2002 by the researchers Krishan K. Aggarwal, Yogesh Singh and Jitender Kumar Chhabra in the article [An Integrated Measure of Software Maintainability](https://ieeexplore.ieee.org/document/981648/).
 
 The proposed formula is:
 
 ![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/comments_ratio_formula.gif "Comments Ratio Formula")
 
 where:
-
-LOC is the number of lines of code.
-
-LOM is the number of lines with comments.
+LOC is the number of lines of code
+LOM is the number of lines with comments
 
 ##### Implementation notes
 
 * **Fully supports Java SE 10.**
 
-* Readability values should be critically considered as good or bad.
+* Aggarwal et al. say that a comments ratio between 1 and 5 mean a good readability value, between 5 and 8 mean an average readability value and bigger that 8 mean a poor readability value. However, later studies suggest that the number of comments should be consistent with the code and controlled. So, the readability values for this formula should be critically considered as good or bad.
 
 * Analyzes the readability of the project, it's classes and methods.
 
 ### SRES
 
-Theorized by Jürgen Börstler, Michael E. Caspersen e Marie Nordström, the general principles of this readability formula were first introduced in 2007, in the article [Beauty and the Beast Toward a Measurement Framework for Example Program Quality](https://pdfs.semanticscholar.org/8c41/1a1fb987966f2020765069dc21881826e635.pdf), then it's logic was implemented in a readability tool titled [Properties of "Good" Java Examples](http://www8.cs.umu.se/education/examina/Rapporter/NadeemAbbas_v2.pdf) by Nadeem Abbas, and later on, in 2015, the SRES readability formula was actually proposed in the article [Beauty and the Beast: on the readability of object-oriented example programs](https://link.springer.com/article/10.1007/s11219-015-9267-5).
+Theorized by Jürgen Börstler, Michael E. Caspersen and Marie Nordström, the general principles of this readability formula were first introduced in 2007, in the article [Beauty and the Beast Toward a Measurement Framework for Example Program Quality](https://pdfs.semanticscholar.org/8c41/1a1fb987966f2020765069dc21881826e635.pdf), then it's logic was implemented in a readability tool titled [Properties of "Good" Java Examples](http://www8.cs.umu.se/education/examina/Rapporter/NadeemAbbas_v2.pdf) by Nadeem Abbas, and later on, in 2015, the SRES readability formula was actually proposed in the article [Beauty and the Beast: on the readability of object-oriented example programs](https://link.springer.com/article/10.1007/s11219-015-9267-5).
 
 The proposed formula is:
 
 ![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/sres_formula.gif "SRES Formula")
 
 where:
-
-ASL is the average sentence length.
-
-AWL is the average word length.
+ASL is the average sentence length
+AWL is the average word length
 
 ##### Implementation notes
 
@@ -84,7 +80,6 @@ The proposed formula is:
 ![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/logistic_formula.gif "Logistic Function")
 
 where:
-
 ![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/phd_regression_formula.gif "PHD Regression Formula")
 
 ##### Implementation notes
