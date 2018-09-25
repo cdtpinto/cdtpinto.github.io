@@ -59,7 +59,7 @@ Theorized by Jürgen Börstler, Michael E. Caspersen and Marie Nordström, the g
 
 The proposed formula is:
 
-![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/sres_formula.gif "SRES Formula")
+![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/sres_equation.gif "SRES Formula")
 
 where:
 
