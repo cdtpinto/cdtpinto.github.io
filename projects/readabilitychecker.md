@@ -94,3 +94,5 @@ where:
 * Readability values range from 0 to 1. The closer it gets to 1, the more readable the code is.
 
 * Analyzes the readability of the currently opened class methods with a maximum of 11 lines of code.
+
+*For additional help, questions or suggestions, feel free to contact <1120301@isep.ipp.pt>.*
