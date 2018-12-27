@@ -1,8 +1,8 @@
 # Readability Checker
 
-Readability Checker is a plugin for the NetBeans IDE that estimates Java code readability using three different software readability formulas.
+Readability Checker is a plugin for the NetBeans IDE that estimates Java source code readability using three different software readability formulas and metrics.
 
-![Main Window](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/readability_checker_ui.png "Readability Checker Main Window")
+![Main Window](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/development/files/images/readability_checker_ui.PNG "Readability Checker Main Window")
 
 ## Features
 
@@ -29,7 +29,7 @@ Currently, Readability Checker implements three software readability formulas:
 
 * Comments Ratio
 * Software Readability Ease Score (SRES)
-* Posnett Hindle Devanbu (PHD)
+* Buse & Weimer (B&W)
 
 ### Comments Ratio
 
@@ -75,24 +75,6 @@ AWL is the average word length
 
 * Analyzes the readability of the project and it's classes.
 
-### PHD
+### B&W
 
-This readability formula was proposed by Daryl Posnett, Abram Hindle and Prem Devanbu, in 2011, in the article [A Simpler Model of Software Readability](https://dl.acm.org/citation.cfm?id=1985454).
-
-The proposed formula is:
-
-![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/phd_logistic_function.gif "Logistic Function")
-
-where:
-
-![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/phd_regression_formula.gif "PHD Regression Formula")
-
-##### Implementation notes
-
-* **Fully supports Java SE 5.**
-
-* Readability values range from 0 to 1. The closer it gets to 1, the more readable the code is.
-
-* Analyzes the readability of the currently opened class methods with a maximum of 11 lines of code.
-
-*For additional help, questions or suggestions, feel free to contact <1120301@isep.ipp.pt>.*
+Bla bla bla...
