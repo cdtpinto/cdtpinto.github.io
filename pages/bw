@@ -45,6 +45,6 @@ public class Example {
 
 This example would be splitted in three blocks of code:
 
-* First block from lines 1 to 8
-* Second block from lines 9 to 16
-* Third block from lines 17 to 20
+* First block from lines 1 to 8 -> `package example;` to `        }`
+* Second block from lines 9 to 16 -> `        if (num < 2 || num % 2 == 0) {` to `        }`
+* Third block from lines 17 to 20 -> `        return true;` to `}`
