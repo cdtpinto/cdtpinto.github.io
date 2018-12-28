@@ -88,6 +88,6 @@ This metric was implemented by the authors and is available [here](http://www.ar
 
 * **Fully supports Java SE 11.**
 
-* Values closer to 1 mean a more readable code.
+* Readability values range from 0 to 1. Values closer to 1 mean a more readable code.
 
 * Analyzes the readability of the project and it's classes.
