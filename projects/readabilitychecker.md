@@ -6,15 +6,15 @@ Readability Checker is a plugin for the NetBeans IDE that estimates Java source 
 
 ## Features
 
-For the Comments Ratio and SRES formulas, the main window shows the readability of the currently opened project. For the PHD formula, it shows how many methods were analyzed by this formula on the currently opened class. To see the readability value of each method, select "Detailed Results".
+The main window shows the readability of the currently opened project. The readability of each file can be viewed by selecting the "Detailed Results" option.
 
-Readability analysis for a specific formula can be disabled by toggling the "Disable" checkbox.
+Readability analysis for a specific formula or metric can be disabled by toggling the "Disable" checkbox.
 
 After checking the readability, the results can be exported to a text file by pressing the "Export Results" button.
 
 ## Installation
 
-These are the install instructions for NetBeans 8.2, the version where this plugin was tested. Steps may slightly vary for other versions of the IDE.
+These are the install instructions for NetBeans 8.2, the version where this plugin was tested. Steps may slightly vary for other versions of the IDE. **The plugin was not tested on Apacha NetBeans 9.0.**
 
 1. Download `nbm` file [here](https://www.dropbox.com/s/6s8b8sv8n5680jg/ReadabilityChecker-1.0.4.nbm?dl=0)
 2. In NetBeans, go to **Tools** > **Plugins** > **Downloaded** > **Add Plugins**
@@ -23,9 +23,10 @@ These are the install instructions for NetBeans 8.2, the version where this plug
 
 The following icon should now appear in the upper left corner of NetBeans: ![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/readabilitycheckericon24.png "Readability Checker Icon")
 
-## Implemented Formulas
+## Implemented Formulas and Metrics
 
-Currently, Readability Checker implements three software readability formulas:
+Currently, Readability Checker implements three software readability 
+as:
 
 * Comments Ratio
 * Software Readability Ease Score (SRES)
@@ -47,7 +48,7 @@ LOM is the number of lines with comments
 
 ##### Implementation notes
 
-* **Fully supports Java SE 10.**
+* **Fully supports Java SE 11.**
 
 * Aggarwal et al. say that a comments ratio between 1 and 5 mean a good readability value, between 5 and 8 mean an average readability value and bigger that 8 mean a poor readability value. However, later studies suggest that the number of comments should be consistent with the code and controlled. So, the readability values for this formula should be critically considered as good or bad.
 
@@ -77,4 +78,16 @@ AWL is the average word length
 
 ### B&W
 
-Bla bla bla...
+This software readability metric was proposed in 2010 by the researchers Raymond Buse and Westley Weimer in the paper [Learning a Metric for Code Readability](https://ieeexplore.ieee.org/document/5332232).
+
+This metric isn't translated in a specific formula. Instead, some features of the code (e.g. number of identifiers, number of spaces, etc...) are considered to calculate the code readability, using an approach described in the mentioned paper.
+
+This metric was implemented by the authors and is available [here](http://www.arrestedcomputing.com/readability). This is the implementation used on Readability Checker.
+
+#### Implementation notes
+
+* **Fully supports Java SE 11.**
+
+* Values closer to 1 mean a more readable code.
+
+* Analyzes the readability of the project and it's classes.
