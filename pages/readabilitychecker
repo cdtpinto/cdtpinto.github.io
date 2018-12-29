@@ -91,3 +91,7 @@ This metric was implemented by the authors and is available [here](http://www.ar
 * Readability values range from 0 to 1. Values closer to 1 mean a more readable code.
 
 * Analyzes the readability of the project and it's classes.
+
+* For the full implementation details of this metric, click [here](https://cdtpinto.github.io/pages/bw).
+
+\*###### The implementation of this metric doesn't use a grammar in order to parse the code. This way, the Java version is not significant for this case. Any Java feature will be accepted regardless of the version it was introduced, thus being able to analyze any Java version.
