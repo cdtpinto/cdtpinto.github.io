@@ -14,7 +14,7 @@ After checking the readability, the results can be exported to a text file by pr
 
 ## Installation
 
-These are the install instructions for NetBeans 8.2, the version where this plugin was tested. Steps may slightly vary for other versions of the IDE. **This plugin was not tested on Apache NetBeans 10.0.**
+These are the install instructions for Apache NetBeans 10.0. Steps may slightly vary for other versions of the IDE.
 
 1. Download `nbm` file [here](https://www.dropbox.com/s/6s8b8sv8n5680jg/ReadabilityChecker-1.0.4.nbm?dl=0)
 2. In NetBeans, go to **Tools** > **Plugins** > **Downloaded** > **Add Plugins**
