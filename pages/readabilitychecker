@@ -2,7 +2,7 @@
 
 Readability Checker is a plugin for the NetBeans IDE that estimates Java source code readability using three different software readability formulas and metrics.
 
-![Main Window](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/development/files/images/readability_checker_ui.PNG "Readability Checker Main Window")
+![Main Window](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/readability_checker_ui.PNG "Readability Checker Main Window")
 
 ## Features
 
