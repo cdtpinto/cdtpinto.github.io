@@ -1,4 +1,4 @@
-## Principles of the B&W Metric
+## Buse & Weimer Metric
 
 Contrary to the other readability formulas implemented in Readability Checker, B&W metric was developed to evaluate the readability of small code snippets.
 
