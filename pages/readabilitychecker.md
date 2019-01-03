@@ -96,4 +96,6 @@ This metric was implemented by its authors and is available [here](http://www.ar
 
 *\* The implementation of this metric doesn't use a grammar in order to parse the code. This way, the Java version is not significant for this case. Any Java feature will be accepted regardless of the version it was introduced, thus being able to "unofficially" analyze any Java version.*
 
+## Contact
+
 If you have questions or suggestions, feel free to contact <1120301@isep.ipp.pt>.
