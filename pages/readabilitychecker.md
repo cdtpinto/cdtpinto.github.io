@@ -25,7 +25,7 @@ Readability Checker is not yet available on the NetBeans Plugin Portal, it has t
 3. Select the downloaded `readabilitychecker-1.1.0.nbm` file
 4. Click **Install** and follow the instructions
 
-The following icon should now appear in the NetBeans toolbar: ![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/readabilitycheckericon24.png "Readability Checker Icon")
+The following icon should now appear in your NetBeans toolbar: ![](https://raw.githubusercontent.com/cdtpinto/cdtpinto.github.io/master/files/images/readabilitycheckericon24.png "Readability Checker Icon")
 
 ## Implemented Formulas and Metrics
 
