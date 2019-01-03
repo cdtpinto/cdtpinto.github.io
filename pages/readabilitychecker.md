@@ -94,4 +94,4 @@ This metric was implemented by its authors and is available [here](http://www.ar
 
 * For the full implementation details of this metric, click [here](https://cdtpinto.github.io/pages/bw).
 
-\* *The implementation of this metric doesn't use a grammar in order to parse the code. This way, the Java version is not significant for this case. Any Java feature will be accepted regardless of the version it was introduced, thus being able to "unofficially" analyze any Java version.*
+*\* The implementation of this metric doesn't use a grammar in order to parse the code. This way, the Java version is not significant for this case. Any Java feature will be accepted regardless of the version it was introduced, thus being able to "unofficially" analyze any Java version.*
