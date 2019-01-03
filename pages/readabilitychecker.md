@@ -98,4 +98,4 @@ This metric was implemented by its authors and is available [here](http://www.ar
 
 ## Contact
 
-If you have questions or suggestions, feel free to contact <1120301@isep.ipp.pt>.
+If you have any question or suggestion, feel free to contact <1120301@isep.ipp.pt>.
