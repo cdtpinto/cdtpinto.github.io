@@ -45,8 +45,8 @@ public class Example {
 
 This example would be splitted in three blocks of code:
 
-* First block from lines 1 to 8 -> `package example;` to `        }` with readability value 0.99
-* Second block from lines 9 to 16 -> `        if (num < 2 || num % 2 == 0) {` to `        }` with readability value 0.67
-* Third block from lines 17 to 20 -> `        return true;` to `}` with readability value 0.99
+* First block from lines 1 to 8 -> `package example;` to `}` with readability value 0.99
+* Second block from lines 9 to 16 -> `if (num < 2 || num % 2 == 0) {` to `}` with readability value 0.67
+* Third block from lines 17 to 20 -> `return true;` to `}` with readability value 0.99
 
 The average value is 0.88, thus that is the readability value for the presented code.

@@ -6,7 +6,11 @@ Readability Checker is a plugin for the NetBeans IDE that estimates Java source 
 
 ## Features
 
-The main window shows the readability of the currently opened project. The readability of each file can be viewed by selecting the "Detailed Results" option.
+Readability Checker is able to calculate the readability of a project and all its Java files.
+
+The main frame displays the readability of the currently selected Java file. The readability of the selected project and all Java files that it contains can be viewed by selecting the "Detailed Results" option.
+
+The currently selected file is displayed in the main frame.
 
 Readability analysis for a specific formula or metric can be disabled by toggling the "Disable" checkbox.
 
@@ -16,7 +20,7 @@ After checking the readability, the results can be exported to a text file by pr
 
 Readability Checker is not yet available on the NetBeans Plugin Portal, it has to be installed manually. These are the install instructions for Apache NetBeans 10.0. Steps may slightly vary for other versions of the IDE.
 
-1. Download `nbm` file [here](https://www.dropbox.com/s/r02t0d4mxmuqqy0/readabilitychecker-1.1.0.nbm?dl=0)
+1. Download `nbm` file [here](https://we.tl/t-xMsvSVZGKe) or [here](https://www.dropbox.com/s/r02t0d4mxmuqqy0/readabilitychecker-1.1.0.nbm?dl=0)
 2. In NetBeans, go to **Tools** > **Plugins** > **Downloaded** > **Add Plugins**
 3. Select the downloaded `readabilitychecker-1.1.0.nbm` file
 4. Click **Install** and follow the instructions
@@ -50,9 +54,7 @@ LOM is the number of lines with comments
 
 * **Fully supports Java SE 11.**
 
-* Aggarwal et al. say that a comments ratio between 1 and 5 mean a good readability value, between 5 and 8 mean an average readability value and bigger that 8 mean a poor readability value. However, later studies suggest that the number of comments should be consistent with the code and controlled. So, the readability values for this formula should be critically considered as good or bad.
-
-* Analyzes the readability of the project, it's classes and methods.
+* Aggarwal et al. say that a comments ratio between 1 and 5 mean a good readability value, between 5 and 8 mean an average readability value and higher than 8 mean a poor readability value. However, later studies suggest that the number of comments should be consistent with the code and controlled, thereby the readability values for this formula should be critically considered as good or bad.
 
 ### SRES
 
@@ -74,15 +76,13 @@ AWL is the average word length
 
 * Threshold readability value is 6. Values closer to 0 mean more readable code.
 
-* Analyzes the readability of the project and it's classes.
-
 ### B&W
 
 This software readability metric was proposed in 2010 by the researchers Raymond Buse and Westley Weimer in the paper [Learning a Metric for Code Readability](https://ieeexplore.ieee.org/document/5332232).
 
 This metric isn't translated in a specific formula. Instead, some features of the code (e.g. number of identifiers, number of spaces, etc...) are considered to calculate the code readability, using an approach described in the mentioned paper.
 
-This metric was implemented by the authors and is available [here](http://www.arrestedcomputing.com/readability). This is the implementation used on Readability Checker.
+This metric was implemented by its authors and is available [here](http://www.arrestedcomputing.com/readability). This is the implementation used on Readability Checker.
 
 #### Implementation notes
 
@@ -94,4 +94,4 @@ This metric was implemented by the authors and is available [here](http://www.ar
 
 * For the full implementation details of this metric, click [here](https://cdtpinto.github.io/pages/bw).
 
-######\* The implementation of this metric doesn't use a grammar in order to parse the code. This way, the Java version is not significant for this case. Any Java feature will be accepted regardless of the version it was introduced, thus being able to analyze any Java version.
+#####\* The implementation of this metric doesn't use a grammar in order to parse the code. This way, the Java version is not significant for this case. Any Java feature will be accepted regardless of the version it was introduced, thus being able to "unofficially" analyze any Java version.
