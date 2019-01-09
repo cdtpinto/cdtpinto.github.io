@@ -98,4 +98,4 @@ This metric was implemented by its authors and is available [here](http://www.ar
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact <1120301@isep.ipp.pt>.
+The source code for this project can be found [here](https://github.com/cdtpinto/readabilitychecker). If you have any questions or suggestions, feel free to contact <1120301@isep.ipp.pt>.
