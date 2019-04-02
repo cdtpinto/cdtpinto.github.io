@@ -20,7 +20,7 @@ After checking the readability, the results can be exported to a text file by pr
 
 Readability Checker is not yet available on the NetBeans Plugin Portal, it has to be installed manually. These are the install instructions for Apache NetBeans 10.0. Steps may slightly vary for other versions of the IDE.
 
-1. Download `nbm` file [here](https://we.tl/t-7UG7AkB8QR) or [here](https://www.dropbox.com/s/r02t0d4mxmuqqy0/readabilitychecker-1.1.0.nbm?dl=0)
+1. Download `nbm` file [here](https://www.dropbox.com/s/r02t0d4mxmuqqy0/readabilitychecker-1.1.0.nbm?dl=0)
 2. In NetBeans, go to **Tools** > **Plugins** > **Downloaded** > **Add Plugins**
 3. Select the downloaded `readabilitychecker-1.1.0.nbm` file
 4. Click **Install** and follow the instructions
