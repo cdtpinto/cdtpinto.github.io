@@ -15,3 +15,7 @@ General idea: (...)
 Time complexity: (...)
 
 (...)
+
+## Code
+
+The source code for this project can be found [here](https://github.com/cdtpinto/sorting-algorithms-in-python).
