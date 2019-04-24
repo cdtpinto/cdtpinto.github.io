@@ -1,54 +1,4 @@
-# Sorting Algorithms Implemented in Python
-
-## Details for the Implemented Sorting Algorithms
-
-### [Quick Sort](#quick-sort)
-
-General idea: (...)
-
-Time complexity: (...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
+# Details for the Implemented Sorting Algorithms
 
 ### [Bubble Sort](#bubble-sort)
 
@@ -58,30 +8,10 @@ Time complexity: O(n^2)
 
 (...)
 
-(...)
+### [Quick Sort](#quick-sort)
 
-(...)
+General idea: (...)
 
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
-
-(...)
+Time complexity: (...)
 
 (...)
