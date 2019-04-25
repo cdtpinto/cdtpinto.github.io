@@ -4,9 +4,9 @@
 
 General idea: go through all the values in a list several times, and for each iteration, "float" the biggest element to the top of the list
 
-Time complexity: O(n^2)
+Worst case time complexity: O(n^2)
 
-(...)
+![Bubble Sort Visualization](https://media.giphy.com/media/sJqcl6rWaEEXS/giphy.gif)
 
 ### [Quick Sort](#quick-sort)
 
