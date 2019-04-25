@@ -6,7 +6,7 @@ General idea: go through all the values in a list several times, and for each it
 
 Worst case time complexity: O(n^2)
 
-![Bubble Sort Visualization](https://media.giphy.com/media/sJqcl6rWaEEXS/giphy.gif =150x150)
+![Bubble Sort Visualization](https://media.giphy.com/media/sJqcl6rWaEEXS/giphy.gif)
 
 ### [Quick Sort](#quick-sort)
 
