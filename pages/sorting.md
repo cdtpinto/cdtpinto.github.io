@@ -4,7 +4,9 @@
 
 General idea: go through all the values in a list several times, and for each iteration, "float" the biggest element to the top of the list
 
-Worst case time complexity: O(n^2)
+Average case time complexity: O(n^2)
+
+In place: yes
 
 ![Bubble Sort Visualization](https://media.giphy.com/media/sJqcl6rWaEEXS/giphy.gif)
 
@@ -12,9 +14,17 @@ Worst case time complexity: O(n^2)
 
 General idea: (...)
 
-Time complexity: (...)
+Average case time complexity: O(nLogn)
 
-(...)
+In place: yes
+
+### [Selection Sort](#selection-sort)
+
+General idea: (...)
+
+Average case time complexity: O(n^2)
+
+In place: yes
 
 ## Code
 
