@@ -12,7 +12,7 @@ In place: yes
 
 ### [Quick Sort](#quick-sort)
 
-General idea: (...)
+General idea: this is a devide and conquer algorithm. The algorithm picks a pivot element and then partitions then, partitions the given array around the picked element.
 
 Average case time complexity: O(nLogn)
 
@@ -20,7 +20,7 @@ In place: yes
 
 ### [Selection Sort](#selection-sort)
 
-General idea: (...)
+General idea: repeatedly finds the minimum element in the unsorted array and puts it in the beginning of the array.
 
 Average case time complexity: O(n^2)
 
